@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   try {
-    res.send("hello");
+    res.send("hello saya reza");
   } catch (error) {
     res.send(error);
   }
